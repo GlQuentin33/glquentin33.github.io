@@ -40,10 +40,10 @@
   }
   @media only screen and (min-width: 751px) {
     .character_contents {
-      margin-top: 160px;
+      margin-top: -65%;
     }
     .character_contents:before {
-      top: -100px;
+      top: -66px;
     }
     .character_contents:after {
       bottom: -100px;
@@ -51,13 +51,13 @@
   }
   @media only screen and (max-width: 750px) {
     .character_contents {
-      margin-top: 24%;
+      margin-top: -65%;
     }
     .character_contents:before {
       top: -66px;
     }
     .character_contents:after {
-      bottom: -66px;
+      bottom: -96px;
     }
   }
   .character_contents .chara_list {
@@ -84,175 +84,175 @@
     opacity: 0;
   }
   .character_contents .chara_list .tanjiro .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_01.png");
+    background-image: url("../img/character/thumb_01.png");
   }
   .character_contents .chara_list .tanjiro .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_01.png");
+    background-image: url("../img/character/thumb_01.png");
   }
   .character_contents .chara_list .neduko .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_02.png");
+    background-image: url("../img/character/thumb_02.png");
   }
   .character_contents .chara_list .neduko .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_02.png");
+    background-image: url("../img/character/thumb_02.png");
   }
   .character_contents .chara_list .zennitsu .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_03.png");
+    background-image: url("../img/character/thumb_03.png");
   }
   .character_contents .chara_list .zennitsu .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_03.png");
+    background-image: url("../img/character/thumb_03.png");
   }
   .character_contents .chara_list .inosuke .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_04.png");
+    background-image: url("../img/character/thumb_04.png");
   }
   .character_contents .chara_list .inosuke .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_04.png");
+    background-image: url("../img/character/thumb_04.png");
   }
   .character_contents .chara_list .giyuu .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_05.png");
+    background-image: url("../img/character/thumb_05.png");
   }
   .character_contents .chara_list .giyuu .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_05.png");
+    background-image: url("../img/character/thumb_05.png");
   }
   .character_contents .chara_list .urokodaki .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_06.png");
+    background-image: url("../img/character/thumb_06.png");
   }
   .character_contents .chara_list .urokodaki .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_06.png");
+    background-image: url("../img/character/thumb_06.png");
   }
   .character_contents .chara_list .sabito .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_08.png");
+    background-image: url("../img/character/thumb_08.png");
   }
   .character_contents .chara_list .sabito .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_08.png");
+    background-image: url("../img/character/thumb_08.png");
   }
   .character_contents .chara_list .makomo .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_07.png");
+    background-image: url("../img/character/thumb_07.png");
   }
   .character_contents .chara_list .makomo .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_07.png");
+    background-image: url("../img/character/thumb_07.png");
   }
   .character_contents .chara_list .shirokami .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_12.png");
+    background-image: url("../img/character/thumb_12.png");
   }
   .character_contents .chara_list .shirokami .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_12.png");
+    background-image: url("../img/character/thumb_12.png");
   }
   .character_contents .chara_list .kurokami .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_11.png");
+    background-image: url("../img/character/thumb_11.png");
   }
   .character_contents .chara_list .kurokami .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_11.png");
+    background-image: url("../img/character/thumb_11.png");
   }
   .character_contents .chara_list .yoroitsuka .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_10.png");
+    background-image: url("../img/character/thumb_10.png");
   }
   .character_contents .chara_list .yoroitsuka .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_10.png");
+    background-image: url("../img/character/thumb_10.png");
   }
   .character_contents .chara_list .kasugaikarasu .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_13.png");
+    background-image: url("../img/character/thumb_13.png");
   }
   .character_contents .chara_list .kasugaikarasu .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_13.png");
+    background-image: url("../img/character/thumb_13.png");
   }
   .character_contents .chara_list .odounooni .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_09.png");
+    background-image: url("../img/character/thumb_09.png");
   }
   .character_contents .chara_list .odounooni .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_09.png");
+    background-image: url("../img/character/thumb_09.png");
   }
   .character_contents .chara_list .teoni .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_14.png");
+    background-image: url("../img/character/thumb_14.png");
   }
   .character_contents .chara_list .teoni .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_14.png");
+    background-image: url("../img/character/thumb_14.png");
   }
   .character_contents .chara_list .numanooni .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_15.png");
+    background-image: url("../img/character/thumb_15.png");
   }
   .character_contents .chara_list .numanooni .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_15.png");
+    background-image: url("../img/character/thumb_15.png");
   }
   .character_contents .chara_list .muzan .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_16.png");
+    background-image: url("../img/character/thumb_16.png");
   }
   .character_contents .chara_list .muzan .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_16.png");
+    background-image: url("../img/character/thumb_16.png");
   }
   .character_contents .chara_list .muzan .name {
     font-weight: bold;
   }
   .character_contents .chara_list .tamayo .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_17.png");
+    background-image: url("../img/character/thumb_17.png");
   }
   .character_contents .chara_list .tamayo .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_17.png");
+    background-image: url("../img/character/thumb_17.png");
   }
   .character_contents .chara_list .yushiro .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_18.png");
+    background-image: url("../img/character/thumb_18.png");
   }
   .character_contents .chara_list .yushiro .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_18.png");
+    background-image: url("../img/character/thumb_18.png");
   }
   .character_contents .chara_list .yabiha .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_19.png");
+    background-image: url("../img/character/thumb_19.png");
   }
   .character_contents .chara_list .yabiha .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_19.png");
+    background-image: url("../img/character/thumb_19.png");
   }
   .character_contents .chara_list .syusamaru .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_20.png");
+    background-image: url("../img/character/thumb_20.png");
   }
   .character_contents .chara_list .syusamaru .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_20.png");
+    background-image: url("../img/character/thumb_20.png");
   }
   .character_contents .chara_list .kyougai .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_21.png");
+    background-image: url("../img/character/thumb_21.png");
   }
   .character_contents .chara_list .kyougai .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_21.png");
+    background-image: url("../img/character/thumb_21.png");
   }
   .character_contents .chara_list .shinobu .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_22.png");
+    background-image: url("../img/character/thumb_22.png");
   }
   .character_contents .chara_list .shinobu .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_22.png");
+    background-image: url("../img/character/thumb_22.png");
   }
   .character_contents .chara_list .rui .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_23.png");
+    background-image: url("../img/character/thumb_23.png");
   }
   .character_contents .chara_list .rui .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_23.png");
+    background-image: url("../img/character/thumb_23.png");
   }
   .character_contents .chara_list .kumonooni .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_24.png");
+    background-image: url("../img/character/thumb_24.png");
   }
   .character_contents .chara_list .kumonooni .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_24.png");
+    background-image: url("../img/character/thumb_24.png");
   }
   .character_contents .chara_list .kumonooni2 .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_25.png");
+    background-image: url("../img/character/thumb_25.png");
   }
   .character_contents .chara_list .kumonooni2 .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_25.png");
+    background-image: url("../img/character/thumb_25.png");
   }
   .character_contents .chara_list .kumonooni3 .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_26.png");
+    background-image: url("../img/character/thumb_26.png");
   }
   .character_contents .chara_list .kumonooni3 .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_26.png");
+    background-image: url("../img/character/thumb_26.png");
   }
   .character_contents .chara_list .kumonooni4 .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_27.png");
+    background-image: url("../img/character/thumb_27.png");
   }
   .character_contents .chara_list .kumonooni4 .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_27.png");
+    background-image: url("../img/character/thumb_27.png");
   }
   .character_contents .chara_list .sishou .thumb {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_28.png");
+    background-image: url("../img/character/thumb_28.png");
   }
   .character_contents .chara_list .sishou .thumb a {
-    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_28.png");
+    background-image: url("../img/character/thumb_28.png");
   }
   .character_contents .chara_list .name {
     color: #e2bc8f;
