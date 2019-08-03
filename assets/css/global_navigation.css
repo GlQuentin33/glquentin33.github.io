@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@media only screen and (min-width: 751px) {
+  .global_portal_sp {
+    display: none;
+  }
+
+  .global_portal_pc {
+    background: url("../img/portal_menu/bg_portal_menu.jpg") repeat-x center top;
+    height: 40px;
+    text-align: center;
+    min-width: 900px;
+  }
+  .global_portal_pc li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 22px;
+    background: url("../img/portal_menu/menu_icon_off.png") no-repeat center;
+    -webkit-background-size: 30px;
+    -o-background-size: 30px;
+    background-size: 30px;
+  }
+  .global_portal_pc li a {
+    color: #000;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    text-decoration: none;
+    background: no-repeat center;
+    -webkit-background-size: 30px;
+    -o-background-size: 30px;
+    background-size: 30px;
+  }
+  .global_portal_pc li a:hover {
+    opacity: 0.65;
+  }
+  .global_portal_pc li.twitter {
+    background: url("../img/portal_menu/icon_twitter.png") no-repeat right center;
+    -webkit-background-size: 18px;
+    -o-background-size: 18px;
+    background-size: 18px;
+    padding-right: 20px;
+  }
+  .global_portal_pc li.current {
+    background-image: url("../img/portal_menu/menu_icon_on.png");
+  }
+  .global_portal_pc li.current a {
+    color: #ce0010;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .global_portal_pc {
+    display: none;
+  }
+
+  .global_portal_sp img {
+    width: 100%;
+  }
+  .global_portal_sp .title {
+    position: relative;
+  }
+  .global_portal_sp .title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url("../img/portal_menu/arrow_portal_menu_sp.png") no-repeat center;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    width: 20px;
+    height: 14px;
+    right: 20px;
+    top: 50%;
+    margin-top: -7px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .global_portal_sp .title.open:after {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  .global_portal_sp .global_sp_menu {
+    background: url("../img/portal_menu/bg_repeat_white.jpg");
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 0;
+  }
+  .global_portal_sp .global_sp_menu.open {
+    height: 296px;
+  }
+  .global_portal_sp ul {
+    padding: 10px 0;
+  }
+  .global_portal_sp ul li {
+    background: url("../img/portal_menu/menu_icon_off.png") no-repeat center;
+    -webkit-background-size: 30px;
+    -o-background-size: 30px;
+    background-size: 30px;
+    margin: 0 4%;
+    border-bottom: 1px solid #b7986a;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .global_portal_sp ul li:last-child {
+    border: none;
+  }
+  .global_portal_sp ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    font-size: 14px;
+  }
+  .global_portal_sp ul li.twitter {
+    background: url("../img/portal_menu/icon_twitter.png") no-repeat 68% center;
+    -webkit-background-size: 16px;
+    -o-background-size: 16px;
+    background-size: 16px;
+  }
+}

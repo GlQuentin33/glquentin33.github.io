@@ -1,0 +1,14 @@
+{
+    "sizes":2,
+    "default_bg":"default_bg.png",
+    "animes":[
+        {
+            "name":"Kimetsu no Yaiba EP 1",
+            "url":"./kny_1.html"
+        },
+        {
+            "name":"Kimetsu no Yaiba EP 2",
+            "url":"./kny_2.html"
+        }
+    ]
+}

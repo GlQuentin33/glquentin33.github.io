@@ -1,0 +1,18 @@
+{
+    "neduko":{
+        "name":"Kamado Nezuko",
+        "info":"Kamado Tanjiro's Sister.\nHis familly was attacked like others, and the blood of the demon enter in Nezuko.\nBefore becoming a demon, she was a girl with a calm heart."
+    },
+    "tanjiro":{
+        "name":"Kamado Tanjiro",
+        "info":"Friendly boy.\nTo return the younger sister who became a demon to human, Join the demon killing squad, an organization of demon hunting, to defeat the family.\nGood at olfactory sense, can sniff out the \"smell\" such as demons and other key points."
+    },
+    "zennitsu":{
+        "name":"Agatsuma Zennitsu",
+        "info":"An oni squadron synchronized with Tanjiro.\nListen well and listen to the \"sounds\" of people and demons.\nHe don't have confidence in himself and often speak indecently.\nIf he fall into extreme fear, he will fall asleep, and he will turn into a crazy character like another person."
+    },
+    "inosuke":{
+        "name":"Hashibira Inosuke",
+        "info":"An oni squadron synchronized with Tanjiro.\nWith a mysterious appearance that always wears the head of a wolf, it has a militant character.\nHe can catch the whereabouts even if he is out of sight and have a sense of touch.."
+    }
+}

@@ -1,0 +1,456 @@
+.main_content {
+    background: url("../img/common/bg/bg_repeat_red.jpg");
+  }
+  @media only screen and (min-width: 751px) {
+    .main_content {
+      padding-bottom: 320px;
+    }
+    .main_content h2 {
+      width: 326px;
+      margin: 0 auto 60px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .main_content h2 {
+      width: 425px;
+      width: 56.66%;
+      max-width: 425px;
+      margin: 0 auto 14%;
+    }
+  }
+  
+  .character_contents {
+    position: relative;
+    background: #000;
+  }
+  .character_contents:before, .character_contents:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+  }
+  .character_contents:before {
+    background: url("../img/common/bg/bg_black_repeat_top.png") repeat-x center bottom;
+  }
+  .character_contents:after {
+    background: url("../img/common/bg/bg_black_repeat_down.png") repeat-x center top;
+  }
+  @media only screen and (min-width: 751px) {
+    .character_contents {
+      margin-top: 160px;
+    }
+    .character_contents:before {
+      top: -100px;
+    }
+    .character_contents:after {
+      bottom: -100px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .character_contents {
+      margin-top: 24%;
+    }
+    .character_contents:before {
+      top: -66px;
+    }
+    .character_contents:after {
+      bottom: -66px;
+    }
+  }
+  .character_contents .chara_list {
+    position: relative;
+    z-index: 2;
+  }
+  .character_contents .chara_list li {
+    text-align: center;
+  }
+  .character_contents .chara_list li .thumb {
+    background: no-repeat center top;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .character_contents .chara_list li .thumb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: no-repeat center bottom;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    opacity: 0;
+  }
+  .character_contents .chara_list .tanjiro .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_01.png");
+  }
+  .character_contents .chara_list .tanjiro .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_01.png");
+  }
+  .character_contents .chara_list .neduko .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_02.png");
+  }
+  .character_contents .chara_list .neduko .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_02.png");
+  }
+  .character_contents .chara_list .zennitsu .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_03.png");
+  }
+  .character_contents .chara_list .zennitsu .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_03.png");
+  }
+  .character_contents .chara_list .inosuke .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_04.png");
+  }
+  .character_contents .chara_list .inosuke .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_04.png");
+  }
+  .character_contents .chara_list .giyuu .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_05.png");
+  }
+  .character_contents .chara_list .giyuu .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_05.png");
+  }
+  .character_contents .chara_list .urokodaki .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_06.png");
+  }
+  .character_contents .chara_list .urokodaki .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_06.png");
+  }
+  .character_contents .chara_list .sabito .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_08.png");
+  }
+  .character_contents .chara_list .sabito .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_08.png");
+  }
+  .character_contents .chara_list .makomo .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_07.png");
+  }
+  .character_contents .chara_list .makomo .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_07.png");
+  }
+  .character_contents .chara_list .shirokami .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_12.png");
+  }
+  .character_contents .chara_list .shirokami .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_12.png");
+  }
+  .character_contents .chara_list .kurokami .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_11.png");
+  }
+  .character_contents .chara_list .kurokami .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_11.png");
+  }
+  .character_contents .chara_list .yoroitsuka .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_10.png");
+  }
+  .character_contents .chara_list .yoroitsuka .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_10.png");
+  }
+  .character_contents .chara_list .kasugaikarasu .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_13.png");
+  }
+  .character_contents .chara_list .kasugaikarasu .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_13.png");
+  }
+  .character_contents .chara_list .odounooni .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_09.png");
+  }
+  .character_contents .chara_list .odounooni .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_09.png");
+  }
+  .character_contents .chara_list .teoni .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_14.png");
+  }
+  .character_contents .chara_list .teoni .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_14.png");
+  }
+  .character_contents .chara_list .numanooni .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_15.png");
+  }
+  .character_contents .chara_list .numanooni .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_15.png");
+  }
+  .character_contents .chara_list .muzan .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_16.png");
+  }
+  .character_contents .chara_list .muzan .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_16.png");
+  }
+  .character_contents .chara_list .muzan .name {
+    font-weight: bold;
+  }
+  .character_contents .chara_list .tamayo .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_17.png");
+  }
+  .character_contents .chara_list .tamayo .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_17.png");
+  }
+  .character_contents .chara_list .yushiro .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_18.png");
+  }
+  .character_contents .chara_list .yushiro .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_18.png");
+  }
+  .character_contents .chara_list .yabiha .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_19.png");
+  }
+  .character_contents .chara_list .yabiha .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_19.png");
+  }
+  .character_contents .chara_list .syusamaru .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_20.png");
+  }
+  .character_contents .chara_list .syusamaru .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_20.png");
+  }
+  .character_contents .chara_list .kyougai .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_21.png");
+  }
+  .character_contents .chara_list .kyougai .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_21.png");
+  }
+  .character_contents .chara_list .shinobu .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_22.png");
+  }
+  .character_contents .chara_list .shinobu .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_22.png");
+  }
+  .character_contents .chara_list .rui .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_23.png");
+  }
+  .character_contents .chara_list .rui .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_23.png");
+  }
+  .character_contents .chara_list .kumonooni .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_24.png");
+  }
+  .character_contents .chara_list .kumonooni .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_24.png");
+  }
+  .character_contents .chara_list .kumonooni2 .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_25.png");
+  }
+  .character_contents .chara_list .kumonooni2 .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_25.png");
+  }
+  .character_contents .chara_list .kumonooni3 .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_26.png");
+  }
+  .character_contents .chara_list .kumonooni3 .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_26.png");
+  }
+  .character_contents .chara_list .kumonooni4 .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_27.png");
+  }
+  .character_contents .chara_list .kumonooni4 .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_27.png");
+  }
+  .character_contents .chara_list .sishou .thumb {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_28.png");
+  }
+  .character_contents .chara_list .sishou .thumb a {
+    background-image: url("https://raw.githubusercontent.com/GlQuentin33/SubTitles/master/assets/img/character/thumb_28.png");
+  }
+  .character_contents .chara_list .name {
+    color: #e2bc8f;
+  }
+  .character_contents .chara_list .oni .name {
+    color: #830005;
+  }
+  @media only screen and (min-width: 751px) {
+    .character_contents .chara_list {
+      width: 1000px;
+      margin: auto;
+    }
+    .character_contents .chara_list li {
+      width: 200px;
+      float: left;
+      margin-bottom: 44px;
+    }
+    .character_contents .chara_list li .thumb {
+      height: 200px;
+    }
+    .character_contents .chara_list li .thumb a {
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+    .character_contents .chara_list li .thumb:hover a {
+      opacity: 1;
+    }
+    .character_contents .chara_list li .name {
+      font-size: 22px;
+      margin-bottom: 6px;
+    }
+    .character_contents .chara_list li .cv {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .character_contents .chara_list {
+      width: 300px;
+      margin: auto;
+    }
+    .character_contents .chara_list li {
+      width: 150px;
+      float: left;
+      margin-bottom: 24px;
+    }
+    .character_contents .chara_list li .thumb {
+      height: 150px;
+    }
+    .character_contents .chara_list li .name {
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .character_contents .chara_list li .cv {
+        font-size: 10px;
+        color: white;
+
+      }
+    .character_contents .chara_list p .cv {
+      color: white;
+    }
+  }
+  .character_contents .chara_detail {
+    position: relative;
+    z-index: 2;
+  }
+  .character_contents .chara_detail .name .chara {
+    color: #e2bc8f;
+  }
+  .character_contents .chara_detail .chara_info .text {
+    line-height: 1.6;
+  }
+  @media only screen and (min-width: 751px) {
+    .character_contents .chara_detail {
+      width: 1000px;
+      margin: auto;
+    }
+    .character_contents .chara_detail .name {
+      position: absolute;
+      left: 0;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+    }
+    .character_contents .chara_detail .name .chara {
+      position: absolute;
+      left: 0;
+      font-size: 44px;
+      letter-spacing: 0.3em;
+      width: 45px;
+      height: 500px;
+    }
+    .character_contents .chara_detail .name .cv {
+      padding-left: 70px;
+      font-size: 15px;
+      letter-spacing: 0.3em;
+    }
+    .character_contents .chara_detail .chara_info {
+      width: 850px;
+      margin: 0 0 0 auto;
+    }
+    .character_contents .chara_detail .chara_info .image {
+      margin-bottom: 25px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .character_contents .chara_detail {
+      margin: 0 5%;
+      padding: 4% 0;
+    }
+    .character_contents .chara_detail .name {
+      margin-bottom: 8%;
+    }
+    .character_contents .chara_detail .name .chara {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .character_contents .chara_detail .name .cv {
+      font-size: 12px;
+    }
+    .character_contents .chara_detail .chara_info .image {
+      margin-bottom: 8px;
+    }
+    .character_contents .chara_detail .chara_info .text {
+      font-size: 13px;
+    }
+  }
+  
+  .main_content .chara_pager {
+    text-align: center;
+  }
+  .main_content .chara_pager p {
+    display: inline-block;
+    background: no-repeat center top;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  .main_content .chara_pager p a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: no-repeat center bottom;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    opacity: 0;
+  }
+  .main_content .chara_pager .prev {
+    background-image: url("../img/character/btn_prev.png");
+  }
+  .main_content .chara_pager .prev a {
+    background-image: url("../img/character/btn_prev.png");
+  }
+  .main_content .chara_pager .list {
+    background-image: url("../img/character/btn_all.png");
+  }
+  .main_content .chara_pager .list a {
+    background-image: url("../img/character/btn_all.png");
+  }
+  .main_content .chara_pager .next {
+    background-image: url("../img/character/btn_next.png");
+  }
+  .main_content .chara_pager .next a {
+    background-image: url("../img/character/btn_next.png");
+  }
+  @media only screen and (min-width: 751px) {
+    .main_content .chara_pager {
+      margin-top: 130px;
+    }
+    .main_content .chara_pager p {
+      width: 115px;
+      height: 55px;
+    }
+    .main_content .chara_pager p a {
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+    .main_content .chara_pager p a:hover {
+      opacity: 1;
+    }
+    .main_content .chara_pager .list {
+      margin: 0 326px;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .main_content .chara_pager {
+      margin-top: 24%;
+    }
+    .main_content .chara_pager p {
+      width: 60px;
+      height: 28px;
+    }
+    .main_content .chara_pager .list {
+      margin: 0 10%;
+    }
+  }
